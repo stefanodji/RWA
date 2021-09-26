@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PiKeyboard</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" href="./icons/favicon-16x16.png" sizes="16x16" />
+
+</head>
+<body>
+    <div id="homePageDiv">
+        <h1 id="homePageText">Who else needs a piano?</h1>
+    </div>
+    <div id="notesAndChordsSector">
+        <div id="notesAndChordsContainer">
+            <p id="provocationParagraf">You maybe can listen, but can you hear?</p>
+            <div id="firstBreak" class="break"></div>
+            <div id="notesOrChordsDiv">
+                <div class="center" id="notesDiv">
+                    <button class="noteChordButton">Notes</button>
+                </div>
+                <div class="center" id="orDiv">
+                    <p>or</p>
+                </div>
+                <div class="center" id="chordsDiv">
+                    <button class="noteChordButton">Chords</button>
+                </div>
+            </div>
+            <div id="secondBreak" class="break"></div>
+            <div id="filerNotesOrChordsDiv">
+                <p id="filterNotesOrChordsParagraf">Filter:</p>
+                <input id="filterInput" type="text">
+            </div>
+            <div id="displayNotesOrChordsContainer"></div>
+        </div>
+    </div>
+    <div id="pianoItemsDiv">
+        <div id="pianoAccessoriesRounding"></div>
+        <div id="playAndStopDiv">
+            <button id="playAndStopButton" class="pianoAccessories">Play Now</button>
+        </div>
+        <div id="labelingDiv" class="pianoAccessories">
+            <p>Labeling</p>
+        </div>
+        <div id=metronomeDiv>
+            <div class="metronomeOptions" id="metronomeSlowDown">-</div>
+            <div id="metronomeMain" class="pianoAccessories">
+                <p>Metronome</p>
+                <p id="metronomeOnOff">Off</p>
+            </div>
+            <div class="metronomeOptions" id="metronomeSpeedUp">+</div>
+        </div>
+    </div>
+    <div id="pianoContainer">
+        <div id="pianoResponsiveDiv"></div>  
+    </div>
+    <script src="./dist/bundle.js"></script>
+</body>
+</html>

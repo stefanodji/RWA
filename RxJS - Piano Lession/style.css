@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+#homePageDiv{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-image: url("https://images.unsplash.com/photo-1512733596533-7b00ccf8ebaf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80");
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#homePageText{
+    font-size: 100px;
+    z-index: 1;
+    color: rgb(245, 245, 245);
+    text-align: center;
+    top: 35%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fadeInFromTopAndFadeOut 5s;
+    opacity: 0;
+}
+
+@keyframes fadeInFromTopAndFadeOut {
+    from {
+        top:20%;
+        opacity: 0;
+    }
+    33% {
+        top: 35%;
+       opacity: 1;
+    }
+    80%{
+        top: 35%;
+       opacity: 1;
+    }
+    to{
+        top: 35%;
+       opacity: 0;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#notesAndChordsSector{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#notesAndChordsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #efefef;
+    border-radius: 15px 15px 0 0;
+    width: 70%;
+    margin-bottom: 100px;
+}
+
+#provocationParagraf{
+    color: white;
+    font-size: 30px;
+    z-index: 2;
+    margin: 30px auto 15px auto;
+}
+
+#notesOrChordsDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto 15px auto;
+    padding: 15px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    margin: auto 10px;
+}
+
+#notesDiv{
+    justify-content: right;
+    margin-right: 5%;
+}
+
+#orDiv{
+    justify-content: center;
+    color: #f28507;
+    font-size: 25px;
+}
+
+#chordsDiv{
+    justify-content: left;
+    margin-left: 5%;
+}
+
+.noteChordButton{
+    color: #efefef;
+    background-color: black;
+    border-radius: 15px;
+    font-size: 30px;
+    padding: 0 10px;
+    border: 2px solid #efefef;
+    transition: ease 0.5s;
+    z-index: 2;
+}
+
+.noteChordButton:hover{
+    color: black;
+    background-color: #efefef;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.break{
+    background-color: #f28507;
+    height: 3px;
+    border-radius: 90%;
+    margin-bottom: 20px;
+}
+
+#firstBreak{
+    width: 70%;
+}
+
+#secondBreak{
+    width: 20%;
+    margin-bottom: 30px;
+}
+
+#filerNotesOrChordsDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#filterInput{
+    font-size: 20px;
+    width: 50%;
+    border-radius: 15px;
+    border: 2px solid #efefef;
+    background-color: black;
+    color: #efefef;
+    padding: 5px 10px 5px 15px;
+    outline: none;
+}
+
+#filterNotesOrChordsParagraf{
+    color: #efefef;
+    font-size: 30px;
+    margin-right: 20px;
+    padding-bottom: 5px;
+}
+
+#displayNotesOrChordsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.noteOrChordDislayDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60px;
+    height: 50px;
+    background-color: black;
+    margin: 15px;
+    color: #efefef;
+    border-radius: 15px 0 0 0 ;
+    font-size: 20px;
+    font-weight: 300;
+    transition: ease 0.7s;
+    background-image: linear-gradient(#171A1F, #3B3F4D);
+}
+
+.noteOrChordDislayDiv:hover{
+    cursor: pointer;
+    background-color: #f28507;
+    color: #f28507;
+    background-image: linear-gradient(#3B3F4D, #171A1F);
+}
+
+#pianoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-bottom: 25px;
+}
+
+#pianoResponsiveDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: black;
+    position: relative;
+    width: 70%;
+}
+
+.imagePiano{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 3px 3px;
+}
+
+#pianoItemsDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#labelingDiv{
+    font-size: 30px;
+    text-align: center;
+}
+
+.pianoAccessories{
+    color: #efefef;
+    background-color: black;
+    border-radius: 15px;
+    font-size: 30px;
+    padding: 0 10px;
+    border: 2px solid #efefef;
+    transition: ease 0.5s;
+    z-index: 2;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.pianoAccessories:hover{
+    color: #f28507;
+    background-color: black;
+    border: 2px solid #f28507;
+    cursor: pointer;
+}
+
+.whiteKey{
+    background-color: red;
+    width: 50px;
+    height: 220px;
+    margin: 0 1px 3px 1px;
+    border-radius: 2px 2px 5px 5px;
+    position: relative;
+}
+
+.whiteKeyLabelUp{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: black;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+}
+
+.whiteKeyLabelUp0{
+    left: 30%;
+}
+
+.whiteKeyLabelUp1{
+    left: 50%;
+}
+
+.whiteKeyLabelUp2{
+    left: 65%;
+}
+
+.whiteKeyLabelUp3{
+    left: 30%;
+}
+
+.whiteKeyLabelUp4{
+    left: 50%;
+}
+
+.whiteKeyLabelUp5{
+    left: 50%;
+}
+
+.whiteKeyLabelUp6{
+    left: 65%;
+}
+
+.whiteKeyLabelDown{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: grey;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+}
+
+.blackKeyLabelUp{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    color: #efefef;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.whiteKeyKeboardLayout{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.blackKey{
+    background-color: black;
+    width: 68%;
+    height: 142px;
+    position: relative;
+    z-index: 2;
+    border-radius: 0 0 5px 5px;
+}
+
+.blackKey0{
+    left: 54%;
+}
+
+.blackKey1{
+    left: 75%;
+}
+
+.blackKey3{
+    left: 54%;
+}
+
+.blackKey4{
+    left: 67%;
+}
+
+.blackKey5{
+    left: 80%;
+}
+
+.blackKeyKeboardLayout{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.shineDiv{
+    /*background-color: rgb(98, 98, 243);*/
+    background-color: #f28507;
+    opacity: 90%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 0%;
+}
+
+#playAndStopDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#metronomeDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#pianoAccessoriesRounding{
+    width: 85%;
+    border: 2px solid #efefef;
+    position: absolute;
+    height: 180px;
+    border-radius: 15px 15px 0 0;
+    z-index: 0;
+}
+
+.metronomeOptions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #efefef;
+    width: 35px;
+    height: 35px;
+    margin: auto 15px;
+    border: 2px solid #efefef;
+    transition: ease 0.5s;
+    border-radius: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    z-index: 2;
+}
+
+.metronomeOptions:hover{
+    color: #f28507;
+    background-color: black;
+    border: 2px solid #f28507;
+    cursor: pointer;
+}
+
+#metronomeMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#beepPerMinuteDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    margin-left: 30px;
+    background-color: black;
+    color: #f28507;
+    border: 2px solid #f28507;
+    border-radius: 15px;
+}

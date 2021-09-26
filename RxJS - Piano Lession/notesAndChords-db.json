@@ -1,0 +1,558 @@
+{
+    "notes": [
+        {
+            "id": 1,
+            "name": "C3",
+            "pathToNote": "../notesMp3/C3.mp3",
+            "keyAssigned": "q"
+        },
+        {
+            "id": 2,
+            "name": "Db3",
+            "pathToNote": "../notesMp3/Db3.mp3",
+            "keyAssigned": "2"
+        },
+        {
+            "id": 3,
+            "name": "D3",
+            "pathToNote": "../notesMp3/D3.mp3",
+            "keyAssigned": "w"
+        },
+        {
+            "id": 4,
+            "name": "Eb3",
+            "pathToNote": "../notesMp3/Eb3.mp3",
+            "keyAssigned": "3"
+        },
+        {
+            "id": 5,
+            "name": "E3",
+            "pathToNote": "../notesMp3/E3.mp3",
+            "keyAssigned": "e"
+        },
+        {
+            "id": 6,
+            "name": "F3",
+            "pathToNote": "../notesMp3/F3.mp3",
+            "keyAssigned": "r"
+        },
+        {
+            "id": 7,
+            "name": "Gb3",
+            "pathToNote": "../notesMp3/Gb3.mp3",
+            "keyAssigned": "5"
+        },
+        {
+            "id": 8,
+            "name": "G3",
+            "pathToNote": "../notesMp3/G3.mp3",
+            "keyAssigned": "t"
+        },
+        {
+            "id": 9,
+            "name": "Ab3",
+            "pathToNote": "../notesMp3/Ab3.mp3",
+            "keyAssigned": "6"
+        },
+        {
+            "id": 10,
+            "name": "A3",
+            "pathToNote": "../notesMp3/A3.mp3",
+            "keyAssigned": "y"
+        },
+        {
+            "id": 11,
+            "name": "Bb3",
+            "pathToNote": "../notesMp3/Bb3.mp3",
+            "keyAssigned": "7"
+        },
+        {
+            "id": 12,
+            "name": "B3",
+            "pathToNote": "../notesMp3/B3.mp3",
+            "keyAssigned": "u"
+        },
+        {
+            "id": 13,
+            "name": "C4",
+            "pathToNote": "../notesMp3/C4.mp3",
+            "keyAssigned": "i"
+        },
+        {
+            "id": 14,
+            "name": "Db4",
+            "pathToNote": "../notesMp3/Db4.mp3",
+            "keyAssigned": "9"
+        },
+        {
+            "id": 15,
+            "name": "D4",
+            "pathToNote": "../notesMp3/D4.mp3",
+            "keyAssigned": "o"
+        },
+        {
+            "id": 16,
+            "name": "Eb4",
+            "pathToNote": "../notesMp3/Eb4.mp3",
+            "keyAssigned": "0"
+        },
+        {
+            "id": 17,
+            "name": "E4",
+            "pathToNote": "../notesMp3/E4.mp3",
+            "keyAssigned": "p"
+        },
+        {
+            "id": 18,
+            "name": "F4",
+            "pathToNote": "../notesMp3/F4.mp3",
+            "keyAssigned": "z"
+        },
+        {
+            "id": 19,
+            "name": "Gb4",
+            "pathToNote": "../notesMp3/Gb4.mp3",
+            "keyAssigned": "s"
+        },
+        {
+            "id": 20,
+            "name": "G4",
+            "pathToNote": "../notesMp3/G4.mp3",
+            "keyAssigned": "x"
+        },
+        {
+            "id": 21,
+            "name": "Ab4",
+            "pathToNote": "../notesMp3/Ab4.mp3",
+            "keyAssigned": "d"
+        },
+        {
+            "id": 22,
+            "name": "A4",
+            "pathToNote": "../notesMp3/A4.mp3",
+            "keyAssigned": "c"
+        },
+        {
+            "id": 23,
+            "name": "Bb4",
+            "pathToNote": "../notesMp3/Bb4.mp3",
+            "keyAssigned": "f"
+        },
+        {
+            "id": 24,
+            "name": "B4",
+            "pathToNote": "../notesMp3/B4.mp3",
+            "keyAssigned": "v"
+        },
+        {
+            "id": 25,
+            "name": "C5",
+            "pathToNote": "../notesMp3/C5.mp3",
+            "keyAssigned": "b"
+        },
+        {
+            "id": 26,
+            "name": "Db5",
+            "pathToNote": "../notesMp3/Db5.mp3",
+            "keyAssigned": "h"
+        },
+        {
+            "id": 27,
+            "name": "D5",
+            "pathToNote": "../notesMp3/D5.mp3",
+            "keyAssigned": "n"
+        },
+        {
+            "id": 28,
+            "name": "Eb5",
+            "pathToNote": "../notesMp3/Eb5.mp3",
+            "keyAssigned": "j"
+        },
+        {
+            "id": 29,
+            "name": "E5",
+            "pathToNote": "../notesMp3/E5.mp3",
+            "keyAssigned": "m"
+        },
+        {
+            "id": 30,
+            "name": "F5",
+            "pathToNote": "../notesMp3/F5.mp3",
+            "keyAssigned": ","
+        },
+        {
+            "id": 31,
+            "name": "Gb5",
+            "pathToNote": "../notesMp3/Gb5.mp3",
+            "keyAssigned": "l"
+        },
+        {
+            "id": 32,
+            "name": "G5",
+            "pathToNote": "../notesMp3/G5.mp3",
+            "keyAssigned": "."
+        },
+        {
+            "id": 33,
+            "name": "Ab5",
+            "pathToNote": "../notesMp3/Ab5.mp3",
+            "keyAssigned": ";"
+        },
+        {
+            "id": 34,
+            "name": "A5",
+            "pathToNote": "../notesMp3/A5.mp3",
+            "keyAssigned": "/"
+        },
+        {
+            "id": 35,
+            "name": "Bb5",
+            "pathToNote": "../notesMp3/Bb5.mp3",
+            "keyAssigned": "'"
+        },
+        {
+            "id": 36,
+            "name": "B5",
+            "pathToNote": "../notesMp3/B5.mp3",
+            "keyAssigned": "+"
+        }
+    ],
+    "chords": [
+        {
+            "id": 1,
+            "name": "C-Major",
+            "notesAssigned": [
+                {
+                    "id": 1,
+                    "name": "C3",
+                    "pathToNote": "../notesMp3/C3.mp3",
+                    "keyAssigned": "q"
+                },
+                {
+                    "id": 5,
+                    "name": "E3",
+                    "pathToNote": "../notesMp3/E3.mp3",
+                    "keyAssigned": "e"
+                },
+                {
+                    "id": 8,
+                    "name": "G3",
+                    "pathToNote": "../notesMp3/G3.mp3",
+                    "keyAssigned": "t"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "C-Minor",
+            "notesAssigned": [
+                {
+                    "id": 1,
+                    "name": "C3",
+                    "pathToNote": "../notesMp3/C3.mp3",
+                    "keyAssigned": "q"
+                },
+                {
+                    "id": 4,
+                    "name": "Eb3",
+                    "pathToNote": "../notesMp3/Eb3.mp3",
+                    "keyAssigned": "3"
+                },
+                {
+                    "id": 8,
+                    "name": "G3",
+                    "pathToNote": "../notesMp3/G3.mp3",
+                    "keyAssigned": "t"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "D-Major",
+            "notesAssigned": [
+                {
+                    "id": 3,
+                    "name": "D3",
+                    "pathToNote": "../notesMp3/D3.mp3",
+                    "keyAssigned": "w"
+                },
+                {
+                    "id": 7,
+                    "name": "Gb3",
+                    "pathToNote": "../notesMp3/Gb3.mp3",
+                    "keyAssigned": "5"
+                },
+                {
+                    "id": 10,
+                    "name": "A3",
+                    "pathToNote": "../notesMp3/A3.mp3",
+                    "keyAssigned": "y"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "D-Minor",
+            "notesAssigned": [
+                {
+                    "id": 3,
+                    "name": "D3",
+                    "pathToNote": "../notesMp3/D3.mp3",
+                    "keyAssigned": "w"
+                },
+                {
+                    "id": 6,
+                    "name": "F3",
+                    "pathToNote": "../notesMp3/F3.mp3",
+                    "keyAssigned": "r"
+                },
+                {
+                    "id": 10,
+                    "name": "A3",
+                    "pathToNote": "../notesMp3/A3.mp3",
+                    "keyAssigned": "y"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "E-Major",
+            "notesAssigned": [
+                {
+                    "id": 5,
+                    "name": "E3",
+                    "pathToNote": "../notesMp3/E3.mp3",
+                    "keyAssigned": "e"
+                },
+                {
+                    "id": 9,
+                    "name": "Ab3",
+                    "pathToNote": "../notesMp3/Ab3.mp3",
+                    "keyAssigned": "6"
+                },
+                {
+                    "id": 12,
+                    "name": "B3",
+                    "pathToNote": "../notesMp3/B3.mp3",
+                    "keyAssigned": "u"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "E-Minor",
+            "notesAssigned": [
+                {
+                    "id": 5,
+                    "name": "E3",
+                    "pathToNote": "../notesMp3/E3.mp3",
+                    "keyAssigned": "e"
+                },
+                {
+                    "id": 8,
+                    "name": "G3",
+                    "pathToNote": "../notesMp3/G3.mp3",
+                    "keyAssigned": "t"
+                },
+                {
+                    "id": 12,
+                    "name": "B3",
+                    "pathToNote": "../notesMp3/B3.mp3",
+                    "keyAssigned": "u"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "F-Major",
+            "notesAssigned": [
+                {
+                    "id": 6,
+                    "name": "F3",
+                    "pathToNote": "../notesMp3/F3.mp3",
+                    "keyAssigned": "r"
+                },
+                {
+                    "id": 10,
+                    "name": "A3",
+                    "pathToNote": "../notesMp3/A3.mp3",
+                    "keyAssigned": "y"
+                },
+                {
+                    "id": 13,
+                    "name": "C4",
+                    "pathToNote": "../notesMp3/C4.mp3",
+                    "keyAssigned": "i"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "F-Minor",
+            "notesAssigned": [
+                {
+                    "id": 6,
+                    "name": "F3",
+                    "pathToNote": "../notesMp3/F3.mp3",
+                    "keyAssigned": "r"
+                },
+                {
+                    "id": 9,
+                    "name": "Ab3",
+                    "pathToNote": "../notesMp3/Ab3.mp3",
+                    "keyAssigned": "6"
+                },
+                {
+                    "id": 13,
+                    "name": "C4",
+                    "pathToNote": "../notesMp3/C4.mp3",
+                    "keyAssigned": "i"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "G-Major",
+            "notesAssigned": [
+                {
+                    "id": 8,
+                    "name": "G3",
+                    "pathToNote": "../notesMp3/G3.mp3",
+                    "keyAssigned": "t"
+                },
+                {
+                    "id": 12,
+                    "name": "B3",
+                    "pathToNote": "../notesMp3/B3.mp3",
+                    "keyAssigned": "u"
+                },
+                {
+                    "id": 15,
+                    "name": "D4",
+                    "pathToNote": "../notesMp3/D4.mp3",
+                    "keyAssigned": "o"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "G-Minor",
+            "notesAssigned": [
+                {
+                    "id": 8,
+                    "name": "G3",
+                    "pathToNote": "../notesMp3/G3.mp3",
+                    "keyAssigned": "t"
+                },
+                {
+                    "id": 11,
+                    "name": "Bb3",
+                    "pathToNote": "../notesMp3/Bb3.mp3",
+                    "keyAssigned": "7"
+                },
+                {
+                    "id": 15,
+                    "name": "D4",
+                    "pathToNote": "../notesMp3/D4.mp3",
+                    "keyAssigned": "o"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "A-Major",
+            "notesAssigned": [
+                {
+                    "id": 10,
+                    "name": "A3",
+                    "pathToNote": "../notesMp3/A3.mp3",
+                    "keyAssigned": "y"
+                },
+                {
+                    "id": 14,
+                    "name": "Db4",
+                    "pathToNote": "../notesMp3/Db4.mp3",
+                    "keyAssigned": "9"
+                },
+                {
+                    "id": 17,
+                    "name": "E4",
+                    "pathToNote": "../notesMp3/E4.mp3",
+                    "keyAssigned": "p"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "A-Minor",
+            "notesAssigned": [
+                {
+                    "id": 10,
+                    "name": "A3",
+                    "pathToNote": "../notesMp3/A3.mp3",
+                    "keyAssigned": "y"
+                },
+                {
+                    "id": 13,
+                    "name": "C4",
+                    "pathToNote": "../notesMp3/C4.mp3",
+                    "keyAssigned": "i"
+                },
+                {
+                    "id": 17,
+                    "name": "E4",
+                    "pathToNote": "../notesMp3/E4.mp3",
+                    "keyAssigned": "p"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "B-Major",
+            "notesAssigned": [
+                {
+                    "id": 12,
+                    "name": "B3",
+                    "pathToNote": "../notesMp3/B3.mp3",
+                    "keyAssigned": "u"
+                },
+                {
+                    "id": 16,
+                    "name": "Eb4",
+                    "pathToNote": "../notesMp3/Eb4.mp3",
+                    "keyAssigned": "0"
+                },
+                {
+                    "id": 19,
+                    "name": "Gb4",
+                    "pathToNote": "../notesMp3/Gb4.mp3",
+                    "keyAssigned": "s"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "B-Minor",
+            "notesAssigned": [
+                {
+                    "id": 12,
+                    "name": "B3",
+                    "pathToNote": "../notesMp3/B3.mp3",
+                    "keyAssigned": "u"
+                },
+                {
+                    "id": 15,
+                    "name": "D4",
+                    "pathToNote": "../notesMp3/D4.mp3",
+                    "keyAssigned": "o"
+                },
+                {
+                    "id": 19,
+                    "name": "Gb4",
+                    "pathToNote": "../notesMp3/Gb4.mp3",
+                    "keyAssigned": "s"
+                }
+            ]
+        }
+    ]
+}
